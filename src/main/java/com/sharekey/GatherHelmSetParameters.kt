@@ -1,6 +1,6 @@
 package com.sharekey
 
-import jetbrains.buildServer.configs.kotlin.v2019_2.Parameter
+import jetbrains.buildServer.configs.kotlin.Parameter
 
 fun GatherHelmSetParameters(params: List<Parameter>, prefix: String = HelmSetParamPrefix): List<String> {
     val result = mutableListOf<String>()

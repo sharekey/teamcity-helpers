@@ -1,6 +1,6 @@
 package com.sharekey
 
-import jetbrains.buildServer.configs.kotlin.v2019_2.BuildType
+import jetbrains.buildServer.configs.kotlin.BuildType
 
 fun GatherGithubDeploymentRequiredContexts(projectName: String, requiredBuildTypes: ArrayList<BuildType>): List<String> {
     val requiredContexts = mutableListOf<String>()

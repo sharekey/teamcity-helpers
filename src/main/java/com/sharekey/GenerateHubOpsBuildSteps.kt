@@ -1,8 +1,8 @@
 package com.sharekey
 
-import jetbrains.buildServer.configs.kotlin.v2019_2.Parameter
-import jetbrains.buildServer.configs.kotlin.v2019_2.BuildSteps
-import jetbrains.buildServer.configs.kotlin.v2019_2.buildSteps.script
+import jetbrains.buildServer.configs.kotlin.Parameter
+import jetbrains.buildServer.configs.kotlin.BuildSteps
+import jetbrains.buildServer.configs.kotlin.buildSteps.script
 
 fun GenerateHubOpsBuildSteps(params: List<Parameter>, prefix: String = HubOpsParamPrefix): BuildSteps.() -> BuildSteps {
     return fun BuildSteps.() = apply {

@@ -1,6 +1,6 @@
 package com.sharekey
 
-import jetbrains.buildServer.configs.kotlin.v2019_2.ParameterDisplay
-import jetbrains.buildServer.configs.kotlin.v2019_2.ParameterSpecPassword
+import jetbrains.buildServer.configs.kotlin.ParameterDisplay
+import jetbrains.buildServer.configs.kotlin.ParameterSpecPassword
 
 val ParameterPassword = ParameterSpecPassword("", "", ParameterDisplay.NORMAL, false)
